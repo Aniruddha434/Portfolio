@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniruddha Gayki - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Aniruddha Gayki</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="profile-img-container">
+                    <div class="profile-img">
+                        <!-- User's actual profile image -->
+                        <img src="assets/profile.jpg" alt="Aniruddha Gayki">
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1>Aniruddha <span class="highlight">Gayki</span></h1>
+                    <p class="subtitle">Computer Science Engineer & Full Stack Developer</p>
+                    <div class="hero-description">
+                        <p>I craft elegant solutions to complex problems, building responsive and user-friendly applications with modern technologies.</p>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="portfolio.html" class="primary-btn">View My Work</a>
+                        <a href="contact.html" class="secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3D particles background -->
+            <div id="particles-js"></div>
+            <div class="scroll-indicator">
+                <a href="#skills">
+                    <span>Scroll Down</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>My Skills</h2>
+            <p class="section-subtitle">What I bring to the table</p>
+            
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-card js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                            <i class="fas fa-code"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-card js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-card js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-card js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-card js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-card js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                            <i class="fas fa-brain"></i>
+                            <span>AI/ML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cta-container">
+                <a href="about.html" class="primary-btn">More About Me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aniruddha-gayki-383abb24b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Aniruddha434" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/u/aniruddha_gayki/" target="_blank"><i class="fas fa-code"></i></a>
+                <a href="https://unstop.com/u/aniruddh3479" target="_blank"><i class="fas fa-trophy"></i></a>
+            </div>
+            <p>&copy; 2024 Aniruddha Gayki. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 3D and Animation Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.0/dist/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+    
+    <script>
+        // Initialize particles.js
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof particlesJS !== 'undefined') {
+                particlesJS('particles-js', {
+                    "particles": {
+                        "number": {
+                            "value": 80,
+                            "density": {
+                                "enable": true,
+                                "value_area": 800
+                            }
+                        },
+                        "color": {
+                            "value": "#00bcd4"
+                        },
+                        "shape": {
+                            "type": "circle",
+                            "stroke": {
+                                "width": 0,
+                                "color": "#000000"
+                            },
+                            "polygon": {
+                                "nb_sides": 5
+                            }
+                        },
+                        "opacity": {
+                            "value": 0.5,
+                            "random": false,
+                            "anim": {
+                                "enable": false,
+                                "speed": 1,
+                                "opacity_min": 0.1,
+                                "sync": false
+                            }
+                        },
+                        "size": {
+                            "value": 3,
+                            "random": true,
+                            "anim": {
+                                "enable": false,
+                                "speed": 40,
+                                "size_min": 0.1,
+                                "sync": false
+                            }
+                        },
+                        "line_linked": {
+                            "enable": true,
+                            "distance": 150,
+                            "color": "#7b68ee",
+                            "opacity": 0.4,
+                            "width": 1
+                        },
+                        "move": {
+                            "enable": true,
+                            "speed": 1.5,
+                            "direction": "none",
+                            "random": true,
+                            "straight": false,
+                            "out_mode": "out",
+                            "bounce": false,
+                            "attract": {
+                                "enable": false,
+                                "rotateX": 600,
+                                "rotateY": 1200
+                            }
+                        }
+                    },
+                    "interactivity": {
+                        "detect_on": "canvas",
+                        "events": {
+                            "onhover": {
+                                "enable": true,
+                                "mode": "grab"
+                            },
+                            "onclick": {
+                                "enable": true,
+                                "mode": "push"
+                            },
+                            "resize": true
+                        },
+                        "modes": {
+                            "grab": {
+                                "distance": 140,
+                                "line_linked": {
+                                    "opacity": 1
+                                }
+                            },
+                            "bubble": {
+                                "distance": 400,
+                                "size": 40,
+                                "duration": 2,
+                                "opacity": 8,
+                                "speed": 3
+                            },
+                            "repulse": {
+                                "distance": 200,
+                                "duration": 0.4
+                            },
+                            "push": {
+                                "particles_nb": 4
+                            },
+                            "remove": {
+                                "particles_nb": 2
+                            }
+                        }
+                    },
+                    "retina_detect": true
+                });
+            }
+        });
+    </script>
+</body>
+</html> 

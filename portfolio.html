@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aniruddha Gayki</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Aniruddha Gayki</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section portfolio-hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Showcase</p>
+                    <h1>My <span class="highlight">Projects</span></h1>
+                    <p class="subtitle">From concept to creation</p>
+                    <div class="hero-description">
+                        <p>Explore my collection of projects spanning web development, machine learning, and database systems.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 3D particles background -->
+            <div id="particles-js"></div>
+            <div class="scroll-indicator">
+                <a href="#portfolio">
+                    <span>Scroll Down</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p class="section-subtitle">My best work</p>
+            </div>
+
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="db">Database</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- E-Commerce Platform -->
+                <div class="portfolio-item js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300" alt="E-Commerce Platform">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Aniruddha434" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h3>E-Commerce Platform</h3>
+                            <span class="portfolio-date">May 2024</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Backend API</span>
+                        </div>
+                        <p class="project-description">Built a user-friendly UI/UX for product browsing & cart operations, reducing cart abandonment by 30%. Developed a backend API to handle 1,000+ product listings, improving response time by 40%.</p>
+                    </div>
+                </div>
+
+                <!-- Medical Record Manager -->
+                <div class="portfolio-item js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Smart Medical Record Manager">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Aniruddha434/medical-record-" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h3>Smart Medical Record Manager</h3>
+                            <span class="portfolio-date">Jul 2024 - Aug 2024</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <p class="project-description">A React-based medical record management system that streamlines patient data storage and access. Built with React (Vite), Node.js, Express.js, and MongoDB, it ensures secure and efficient healthcare data handling.</p>
+                    </div>
+                </div>
+
+                <!-- ML Models -->
+                <div class="portfolio-item js-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-category="ml">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Machine Learning Models">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-links">
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Aniruddha434" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h3>Machine Learning Models</h3>
+                            <span class="portfolio-date">Jun 2024 - Aug 2024</span>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Data Analysis</span>
+                        </div>
+                        <p class="project-description">Designed and refined 5+ machine learning models to improve data-driven decision-making by 25%. Worked with datasets exceeding 20,000 entries and optimized feature engineering.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-container">
+                <a href="contact.html" class="primary-btn">Contact Me</a>
+                <a href="#" target="_blank" class="secondary-btn">Download Resume</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aniruddha-gayki-383abb24b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Aniruddha434" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/u/aniruddha_gayki/" target="_blank"><i class="fas fa-code"></i></a>
+                <a href="https://unstop.com/u/aniruddh3479" target="_blank"><i class="fas fa-trophy"></i></a>
+            </div>
+            <p>&copy; 2024 Aniruddha Gayki. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 3D and Animation Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.0/dist/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+    
+    <script>
+        // Initialize particles.js
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof particlesJS !== 'undefined') {
+                particlesJS('particles-js', {
+                    "particles": {
+                        "number": {
+                            "value": 80,
+                            "density": {
+                                "enable": true,
+                                "value_area": 800
+                            }
+                        },
+                        "color": {
+                            "value": "#00bcd4"
+                        },
+                        "shape": {
+                            "type": "circle",
+                            "stroke": {
+                                "width": 0,
+                                "color": "#000000"
+                            },
+                            "polygon": {
+                                "nb_sides": 5
+                            }
+                        },
+                        "opacity": {
+                            "value": 0.5,
+                            "random": false,
+                            "anim": {
+                                "enable": false,
+                                "speed": 1,
+                                "opacity_min": 0.1,
+                                "sync": false
+                            }
+                        },
+                        "size": {
+                            "value": 3,
+                            "random": true,
+                            "anim": {
+                                "enable": false,
+                                "speed": 40,
+                                "size_min": 0.1,
+                                "sync": false
+                            }
+                        },
+                        "line_linked": {
+                            "enable": true,
+                            "distance": 150,
+                            "color": "#7b68ee",
+                            "opacity": 0.4,
+                            "width": 1
+                        },
+                        "move": {
+                            "enable": true,
+                            "speed": 1.5,
+                            "direction": "none",
+                            "random": true,
+                            "straight": false,
+                            "out_mode": "out",
+                            "bounce": false,
+                            "attract": {
+                                "enable": false,
+                                "rotateX": 600,
+                                "rotateY": 1200
+                            }
+                        }
+                    },
+                    "interactivity": {
+                        "detect_on": "canvas",
+                        "events": {
+                            "onhover": {
+                                "enable": true,
+                                "mode": "grab"
+                            },
+                            "onclick": {
+                                "enable": true,
+                                "mode": "push"
+                            },
+                            "resize": true
+                        },
+                        "modes": {
+                            "grab": {
+                                "distance": 140,
+                                "line_linked": {
+                                    "opacity": 1
+                                }
+                            },
+                            "bubble": {
+                                "distance": 400,
+                                "size": 40,
+                                "duration": 2,
+                                "opacity": 8,
+                                "speed": 3
+                            },
+                            "repulse": {
+                                "distance": 200,
+                                "duration": 0.4
+                            },
+                            "push": {
+                                "particles_nb": 4
+                            },
+                            "remove": {
+                                "particles_nb": 2
+                            }
+                        }
+                    },
+                    "retina_detect": true
+                });
+            }
+        });
+    </script>
+</body>
+</html> 
